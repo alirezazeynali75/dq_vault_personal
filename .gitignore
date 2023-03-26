@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+testing.go
+
+# Compiled binaries
+/bin/
+/pkg/
+
+# Local development tmp
+/tmp/
+version
+scripts
+.travis.yml
+Gopkg.lock
+LICENSE
+vault-secrets-gen
+Vault-demo
+vault-secrets-gen
+vault.log
+node_modules
+commands
+.env
+vendor/
+/vault/plugin/dq-vault
+.idea
